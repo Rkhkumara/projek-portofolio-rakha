@@ -1,0 +1,11 @@
+{
+  "r2": 0.9968,
+  "rmse": 347.5,
+  "mae": 227.13,
+  "mape": 0.78,
+  "n_train": 41817,
+  "n_test": 10455,
+  "n_features": 21,
+  "split_strategy": "chronological_holdout",
+  "timestamp": "2025-07-05"
+}

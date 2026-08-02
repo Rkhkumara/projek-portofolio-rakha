@@ -1,0 +1,86 @@
+[
+  {
+    "Feature": "Zone1_roll3",
+    "Mean_ABS_SHAP": 5157.30517578125
+  },
+  {
+    "Feature": "Zone1_lag1",
+    "Mean_ABS_SHAP": 885.046875
+  },
+  {
+    "Feature": "Zone1_roll6",
+    "Mean_ABS_SHAP": 200.73875427246094
+  },
+  {
+    "Feature": "Zone1_lag6",
+    "Mean_ABS_SHAP": 131.37060546875
+  },
+  {
+    "Feature": "Zone1_lag24",
+    "Mean_ABS_SHAP": 69.49832916259766
+  },
+  {
+    "Feature": "GeneralDiffuseFlows",
+    "Mean_ABS_SHAP": 68.71527099609375
+  },
+  {
+    "Feature": "Hour_sin",
+    "Mean_ABS_SHAP": 55.904239654541016
+  },
+  {
+    "Feature": "DiffuseFlows",
+    "Mean_ABS_SHAP": 49.708343505859375
+  },
+  {
+    "Feature": "Hour",
+    "Mean_ABS_SHAP": 29.775911331176758
+  },
+  {
+    "Feature": "Hour_cos",
+    "Mean_ABS_SHAP": 26.789167404174805
+  },
+  {
+    "Feature": "Zone1_roll24",
+    "Mean_ABS_SHAP": 26.023469924926758
+  },
+  {
+    "Feature": "DayOfWeek",
+    "Mean_ABS_SHAP": 20.34279441833496
+  },
+  {
+    "Feature": "Month",
+    "Mean_ABS_SHAP": 19.395437240600586
+  },
+  {
+    "Feature": "Temperature",
+    "Mean_ABS_SHAP": 8.579849243164062
+  },
+  {
+    "Feature": "Humidity",
+    "Mean_ABS_SHAP": 8.361615180969238
+  },
+  {
+    "Feature": "Month_cos",
+    "Mean_ABS_SHAP": 6.053561210632324
+  },
+  {
+    "Feature": "WindSpeed",
+    "Mean_ABS_SHAP": 5.366585731506348
+  },
+  {
+    "Feature": "Month_sin",
+    "Mean_ABS_SHAP": 4.984128475189209
+  },
+  {
+    "Feature": "DayOfWeek_sin",
+    "Mean_ABS_SHAP": 3.1218907833099365
+  },
+  {
+    "Feature": "DayOfWeek_cos",
+    "Mean_ABS_SHAP": 1.681762456893921
+  },
+  {
+    "Feature": "IsWeekend",
+    "Mean_ABS_SHAP": 0.6754109263420105
+  }
+]

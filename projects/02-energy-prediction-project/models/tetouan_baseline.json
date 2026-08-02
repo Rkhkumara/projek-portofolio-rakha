@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-07-24 06:06:21",
+  "test_size": 0.2,
+  "n_features": 21,
+  "n_train": 41817,
+  "n_test": 10455,
+  "results": [
+    {
+      "Model": "Naive (Persistence)",
+      "R\u00b2": 0.9921,
+      "RMSE": 550.07,
+      "MAE": 369.43,
+      "MAPE (%)": 1.27
+    },
+    {
+      "Model": "Linear Regression",
+      "R\u00b2": 0.9984,
+      "RMSE": 245.13,
+      "MAE": 157.34,
+      "MAPE (%)": 0.54
+    },
+    {
+      "Model": "XGBoost (Proposed)",
+      "R\u00b2": 0.9968,
+      "RMSE": 347.5,
+      "MAE": 227.13,
+      "MAPE (%)": 0.78
+    }
+  ]
+}

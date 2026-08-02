@@ -1,0 +1,90 @@
+{
+  "method": "TimeSeriesSplit",
+  "n_splits": 5,
+  "description": "Expanding-window validation; validation fold selalu setelah training fold.",
+  "folds": [
+    {
+      "fold": 1,
+      "train_start": 0,
+      "train_end": 8711,
+      "validation_start": 8712,
+      "validation_end": 17423,
+      "n_train": 8712,
+      "n_validation": 8712,
+      "r2": 0.996838,
+      "rmse": 373.22048,
+      "mae": 239.573846,
+      "mape": 0.79875
+    },
+    {
+      "fold": 2,
+      "train_start": 0,
+      "train_end": 17423,
+      "validation_start": 17424,
+      "validation_end": 26135,
+      "n_train": 17424,
+      "n_validation": 8712,
+      "r2": 0.995102,
+      "rmse": 499.279999,
+      "mae": 331.223998,
+      "mape": 0.990231
+    },
+    {
+      "fold": 3,
+      "train_start": 0,
+      "train_end": 26135,
+      "validation_start": 26136,
+      "validation_end": 34847,
+      "n_train": 26136,
+      "n_validation": 8712,
+      "r2": 0.992279,
+      "rmse": 613.720973,
+      "mae": 382.332806,
+      "mape": 1.018678
+    },
+    {
+      "fold": 4,
+      "train_start": 0,
+      "train_end": 34847,
+      "validation_start": 34848,
+      "validation_end": 43559,
+      "n_train": 34848,
+      "n_validation": 8712,
+      "r2": 0.998085,
+      "rmse": 285.143913,
+      "mae": 202.484208,
+      "mape": 0.636726
+    },
+    {
+      "fold": 5,
+      "train_start": 0,
+      "train_end": 43559,
+      "validation_start": 43560,
+      "validation_end": 52271,
+      "n_train": 43560,
+      "n_validation": 8712,
+      "r2": 0.996859,
+      "rmse": 339.307302,
+      "mae": 218.047586,
+      "mape": 0.770423
+    }
+  ],
+  "summary": {
+    "r2": {
+      "mean": 0.9958325155604737,
+      "std": 0.0020150310173321774
+    },
+    "rmse": {
+      "mean": 422.13453340231735,
+      "std": 118.89167472907687
+    },
+    "mae": {
+      "mean": 274.73248903041065,
+      "std": 69.91171769109441
+    },
+    "mape": {
+      "mean": 0.8429613048404949,
+      "std": 0.14304856261667342
+    }
+  }
+}

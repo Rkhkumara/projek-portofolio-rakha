@@ -1,0 +1,54 @@
+project:
+  name: "tetouan-power-consumption-prediction"
+
+data:
+  raw_data_path: "dataset/powerconsumption.csv"
+  processed_data_path: "data/processed/train_ready.csv"
+  datetime_col: "Datetime"
+  target_col: "PowerConsumption_Zone1"
+  feature_cols:
+    - Temperature
+    - Humidity
+    - WindSpeed
+    - GeneralDiffuseFlows
+    - DiffuseFlows
+    - Hour
+    - DayOfWeek
+    - Month
+    - IsWeekend
+    - Hour_sin
+    - Hour_cos
+    - DayOfWeek_sin
+    - DayOfWeek_cos
+    - Month_sin
+    - Month_cos
+    - Zone1_lag1
+    - Zone1_lag6
+    - Zone1_lag24
+    - Zone1_roll3
+    - Zone1_roll6
+    - Zone1_roll24
+
+model_params:
+  xgboost:
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    min_child_weight: 5
+    gamma: 0.1
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    random_state: 42
+
+training:
+  cv_folds: 5
+  test_size: 0.2
+  validation_size: 0.1
+  shuffle: false
+  model_save_path: "models/model_tetouan_xgb.json"
+  feature_cols_save_path: "models/tetouan_feature_cols.json"
+  metrics_save_path: "models/tetouan_metrics.json"
+  drift_baseline_path: "models/tetouan_drift_baseline.json"
+  timeseries_cv_path: "models/tetouan_timeseries_cv.json"

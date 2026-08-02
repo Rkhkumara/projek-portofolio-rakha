@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-07-24 06:06:20",
+  "test_size": 0.2,
+  "n_features": 21,
+  "n_train": 41817,
+  "n_test": 10455,
+  "results": [
+    {
+      "Skenario": "A \u2014 Full Model",
+      "Fitur Dihapus": "\u2014",
+      "Jumlah Fitur": 21,
+      "R\u00b2": 0.9964,
+      "RMSE": 369.18,
+      "MAE": 236.71,
+      "MAPE (%)": 0.81
+    },
+    {
+      "Skenario": "B \u2014 Tanpa Top-2 SHAP",
+      "Fitur Dihapus": "Zone1_roll3, Zone1_lag1",
+      "Jumlah Fitur": 19,
+      "R\u00b2": 0.9918,
+      "RMSE": 558.98,
+      "MAE": 386.83,
+      "MAPE (%)": 1.32
+    },
+    {
+      "Skenario": "C \u2014 Tanpa Lag & Rolling",
+      "Fitur Dihapus": "Zone1_lag1, Zone1_lag6, Zone1_lag24, Zone1_roll3, Zone1_roll6, Zone1_roll24",
+      "Jumlah Fitur": 15,
+      "R\u00b2": 0.4244,
+      "RMSE": 4683.18,
+      "MAE": 4327.03,
+      "MAPE (%)": 15.3
+    }
+  ]
+}
