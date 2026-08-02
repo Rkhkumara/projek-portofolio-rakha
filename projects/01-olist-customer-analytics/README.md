@@ -27,11 +27,11 @@ Platform e-commerce sering terjebak dalam siklus yang tidak sehat: terus mengaku
 
 **Cohort Retention Heatmap (M1–M12)**
 
-![Cohort Heatmap](outputs/cohort_retention_heatmap.png)
+![Cohort Heatmap](assets/cohort_retention_heatmap.png)
 
 **RFM Segment Distribution**
 
-![RFM Distribution](outputs/rfm_segment_distribution.png)
+![RFM Distribution](assets/rfm_segment_distribution.png)
 
 ---
 
