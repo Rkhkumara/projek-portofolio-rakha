@@ -1,4 +1,4 @@
-# Portofolio Proyek — Data Science & Machine Learning
+# Portofolio Proyek | Data Analyst
 
 Dua proyek di bawah ini diambil dari repository [projek-portofolio-rakha](https://github.com/Rkhkumara/projek-portofolio-rakha), folder `projects/`. Keduanya dikerjakan dari nol: mulai dari data mentah, proses cleaning, sampai model dan (untuk proyek kedua) aplikasi yang bisa langsung dicoba.
 
